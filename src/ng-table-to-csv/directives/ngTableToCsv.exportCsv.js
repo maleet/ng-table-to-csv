@@ -19,7 +19,7 @@
                   '"';
               },
               generate  : function () {
-                data = '';
+                data = "\ufeff";
                 var rows = element.find('tr');
                 angular.forEach(rows, function (row, i) {
                   var tr = angular.element(row),
